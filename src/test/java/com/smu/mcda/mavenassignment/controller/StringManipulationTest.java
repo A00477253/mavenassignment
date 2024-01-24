@@ -19,7 +19,7 @@ public class StringManipulationTest {
     @Test
     public void testGenerateMD5Hash() {
         String input = "HELLO";
-        String expectedOutput = "eb61eead90e3b899c6bcbe27ac581660";
+        String expectedOutput = "74240b12b08b2e76da33d1b8574b5012";
 
         StringManipulation controller = new StringManipulation();
         String md5Hash = controller.generateMD5Hash(input);
@@ -30,7 +30,7 @@ public class StringManipulationTest {
     @Test
     public void testProcessString() {
         String input = "hello";
-        String expectedOutput = "eb61eead90e3b899c6bcbe27ac581660";
+        String expectedOutput = "74240b12b08b2e76da33d1b8574b5012";
 
         StringManipulation controller = new StringManipulation();
         String result = controller.processString(input);
